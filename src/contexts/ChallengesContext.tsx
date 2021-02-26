@@ -94,7 +94,7 @@ import { LevelUpModal } from '../components/LevelUpModal';
             }
 
             const{amount } = activeChallenge;
-
+ 
             let finalExperience = currentExperience + amount;
 
             if(finalExperience >= experienceToNextLevel){
